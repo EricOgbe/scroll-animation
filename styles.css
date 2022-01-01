@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+}
+.container {
+    flex-direction: column;
+    height: 120vh;
+}
+.content-box {
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 5px;
+    position: relative;
+    left: 43%;
+    color: #000;
+}
+.content {
+    position: relative;
+    top: 40%;
+}
+.box1 {
+    transform: translateX(-70vw);
+    transition: 0.3s ease;
+}
+.box2 {
+    transform: translateX(70vw);
+    transition: 0.3s ease;
+}
+.box3 {
+    transform: translateX(-70vw);
+    transition: 0.3s ease;
+}
